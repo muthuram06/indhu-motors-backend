@@ -34,6 +34,8 @@ public class Product {
 
     private Boolean available;
 
+    private String imageUrl;
+
     // Getters and Setters
 
     public Long getId() {
@@ -114,5 +116,13 @@ public class Product {
 
     public void setAvailable(Boolean available) {
         this.available = available;
+    }
+
+    public String getImageUrl() {
+        return imageUrl;
+    }
+
+    public void setImageUrl(String imageUrl) {
+        this.imageUrl = imageUrl;
     }
 }
